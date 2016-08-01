@@ -1,0 +1,6 @@
+{
+  "name": "Real-Time Win Odds on the ATP World Tour",
+  "tagline": "Live Point-by-Point Prediction of ATP Tennis Win Probability",
+  "body": "### Welcome to My Point-by-Point Tennis Project\r\nLast year, I used a rudimentary Elo method to predict the probability of a tennis player reaching different stages of a grand slam tournament. While it accounted for a player's ranking, recent form, head-to-head record against opponents, previous tournament performance and court surface, it did not carry much probabilistic Bayesian elements, which caused some of the predictions to be somewhat inaccurate.\r\n\r\nThis project seeks to expand the scope of last year's project by making odd predictions **by point**, not just by match. It also seeks to take a more Bayesian approach, where there is an underlying point-by-point odds model that dictates the prior distribution, which is then updated with player-specific and match-specific information (i.e. recent form, head-to-head, court surface) to make a final prediction.\r\n\r\nSee below for the latest point-by-point update on the ATP World Tour. For an in-depth methodology, check out my post on my blog DataBucket.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
