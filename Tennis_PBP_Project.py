@@ -337,6 +337,7 @@ def identify_bad_states(all_point_data):
     
     return challenger_15_idx, challenger_archive_idx
 
+
 #--------------------------------------------------------------------------------------------
 # Step 3: This function summarizes the point data dataset, to get the match win % from
 # all game situations.
