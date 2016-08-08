@@ -3,7 +3,7 @@ Live Point by Point Prediction of ATP Tennis Win Probability
 
 ![alt tag](https://github.com/haroldli93/04-Tennis-Point-by-Point-Project/blob/master/Scraped Matches/2016-08-01_106329_105065_live.png)
 
-This project is an attempt to make real-time match win predictions of all ATP World Tour matches. It is an extension of a project I completed last year on predicting match outcomes in grand slam tournaments. Significant improvements I made to this model include the following:
+This project is an attempt to <b>model win odds of all ATP World Tour matches in real time</b>. It is an extension of a project I completed last year on predicting match outcomes in grand slam tournaments. Significant improvements I made to this model include the following:
 
 1. While my previous model was Elo-based, it <b>lacked Bayesian elements</b>. The new model uses a probability-based model as a prior distribution of our predictions, and updates them based on match-specific information (i.e. surface, head-to-head record, player's recent form, rankings, etc.) to create a posterior distribution, which is our final prediction.
 
