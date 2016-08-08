@@ -286,6 +286,7 @@ def compile_initial_point_data(challenger_15_idx, challenger_archive_idx):
     
     return all_point_data
 
+
 #--------------------------------------------------------------------------------------------
 # Step 2: This function adds additional columns to point data dataset for ease of analysis
 # and interpretation
