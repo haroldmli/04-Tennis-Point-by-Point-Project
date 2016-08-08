@@ -1,0 +1,5 @@
+Notes on Project
+
+1) Make sure to set right location for repository: git remote set-url origin https://github.com/haroldli93/04-Tennis-Point-by-Point-Project.git
+
+2) Run the following script to ensure live auto-commit and auto-push to Github repo: fswatch -o  . -e "\\.git.*"| xargs -I % sh -c 'git commit -am "snapshot from autocommit_script.sh"; git push'
